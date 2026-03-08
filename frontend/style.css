@@ -111,6 +111,26 @@ header h1 {
     margin-bottom: 0;
 }
 
+.new-chat-btn {
+    width: 100%;
+    background: none;
+    border: none;
+    color: var(--text-secondary);
+    font-size: 0.875rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    padding: 0.5rem 0;
+    cursor: pointer;
+    text-align: left;
+    transition: color 0.2s ease;
+    outline: none;
+}
+
+.new-chat-btn:hover {
+    color: var(--primary-color);
+}
+
 /* Main Chat Area */
 .chat-main {
     flex: 1;
@@ -243,6 +263,19 @@ header h1 {
 .sources-content {
     padding: 0 0.5rem 0.25rem 1.5rem;
     color: var(--text-secondary);
+}
+
+.sources-content a {
+    color: #60a5fa;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: color 0.15s ease, border-color 0.15s ease;
+    font-weight: 500;
+}
+
+.sources-content a:hover {
+    color: #93c5fd;
+    border-bottom-color: #93c5fd;
 }
 
 /* Markdown formatting styles */
